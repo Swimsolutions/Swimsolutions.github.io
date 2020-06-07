@@ -1,0 +1,29 @@
+<main>
+  {% for element in site.elements %}
+    <section class='{{ element.cls }}'>
+      {%if element.image %}
+      <img class='{% cycle 'pull-right', 'pull-left' %}' src='{{ element.image }}'>
+      {% endif %}
+
+      {% if element.link %}
+      <h2 id='{{ element.link }}'>
+        {{ element.heading }}
+        <span>{{ element.subheading }}</span>
+      </h2>
+
+      {% else %}
+      <h3>
+        {{ element.heading }}
+        <span>{{ element.subheading }}</span>
+      </h3>
+      {% endif %}
+
+      <div class='lead'>{{ element.content }}</div>
+    </section>
+    {%if element.header_only != true %}
+    <hr>
+    {% endif %}
+
+  {% endfor %}
+
+</main>
