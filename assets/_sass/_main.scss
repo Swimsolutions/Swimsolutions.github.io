@@ -24,6 +24,10 @@ main {
     span { @extend .text-muted; }
   }
 
+  h3 { font-size: 25px; }
+
+  h2, h3 .subheading{ @extend .text-muted; display: block }
+
   @media(max-width:1200px) {
     hr { margin: 50px 0; }
     h2 { font-size: 35px; }
