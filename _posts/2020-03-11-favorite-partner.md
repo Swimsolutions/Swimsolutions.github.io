@@ -6,7 +6,7 @@ category: partner
 image: "assets/images/banner.jpeg"
 subheading: Doing Stuff for them
 short: Building and resolving is always tough
-permalink: /black-mesa
+permalink: /riding-hood
 ---
 
 
