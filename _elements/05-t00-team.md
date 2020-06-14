@@ -1,6 +1,6 @@
 ---
 link: team
 name: Team
-heading: Team
+heading: Who We Are
 header_only: true
 ---

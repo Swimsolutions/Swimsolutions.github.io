@@ -1,0 +1,23 @@
+<main>
+    {% for post in site.posts %}
+    {% if post.category contains {{include.category}}%}
+    <a href="{{post.permalink}}">
+        <div class="col-md-2">
+            {%if post.image %}
+            <img class='article-thumbnail' src='{{ post.image }}'>
+            {% endif %}
+        </div>
+        <div class="col-md-10">
+            <p class="pull-right">{{post.date | date: "%Y %B %d"}}</p>
+            <h3>
+                {{ post.title }}
+                <span class="subheading">{{ post.subheading }}</span>
+            </h3>
+            <div class='lead'>{{ post.short }}</div>
+        </div>
+    </a>
+    <hr>
+    {% endif %}
+    {% endfor %}
+
+</main>

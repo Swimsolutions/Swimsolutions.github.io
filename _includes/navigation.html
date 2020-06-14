@@ -8,7 +8,7 @@
         <span class='icon-bar'></span>
         <span class='icon-bar'></span>
       </button>
-      <a class='navbar-brand' href='#'>
+      <a class='navbar-brand' href='/'>
         <img src='assets/images/logo-white.svg' class="navbar-logo">
         {{ site.sitename }}
       </a>
@@ -16,16 +16,20 @@
 
     <div id='menu'>
       <ul>
-
-        {% for element in site.elements %}
-          {%if element.link %}
+        {% for item in site.data.menu %}
+          {% if page.name contains item.link %}
+            <li class="active">
+              <a>{{ item.text }}</a>
+            </li>
+          {% else %}
             <li>
-              <a href='#{{ element.link }}'>{{ element.name }}</a>
+              <a href='/{{ item.link }}'>{{ item.text }}</a>
             </li>
           {% endif %}
         {% endfor %}
-
       </ul>
+
+
     </div>
   </div>
 </nav>

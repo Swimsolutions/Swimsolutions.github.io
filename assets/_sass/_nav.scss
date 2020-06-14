@@ -2,5 +2,10 @@ nav {
 	@extend .navbar, .navbar-inverse, .navbar-fixed-top;
 	button { @extend .navbar-toggle; }
 	#menu { @extend .collapse, .navbar-collapse; }
-  ul { @extend .nav, .navbar-nav; }
+  ul { @extend .nav, .navbar-nav; 
+	li a{ color: #ddd }
+	li.active a, li.active:hover a
+	{ border-top: 5px solid #B0BFC8; padding-top: 10px; background-color: #244b7f }
+  }
+  background: #132A49;
 }

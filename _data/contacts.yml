@@ -1,0 +1,16 @@
+- text: "@swim_solutions"
+  url: "https://twitter.com/swim_solutions"
+  icon: "twitter"
+  show: true
+- text: "instragram"
+  url: "https://instagram.com"
+  icon: "instagram"
+  show: false
+- text: "linkedIn"
+  url: "https://linkedin.com/company/swim-wm"
+  icon: "linkedin"
+  show: true
+- text: "info@swimsolutions.org"
+  url: "mailto:info@swimsolutions.org"
+  icon: "envelope"
+  show: true

@@ -5,8 +5,12 @@ layout: compress
 <html>
   {% include head.html %}
   <body>
-  	{% include navigation.html %}
-  	{{ content }}
+	  {% include navigation.html %}
+	  {% include header.html %}
+	<div class="container">
+	  {{ content }}
+	</div>
+	{% include footer.html %}
   	<script src='{{ site.baseurl }}/assets/app.js'></script>
 	</body>
 </html>
