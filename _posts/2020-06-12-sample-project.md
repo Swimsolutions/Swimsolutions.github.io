@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Sample Project
+title: Running Project
 author: SWIM
 category: project
 image: "assets/images/placeholder.svg"
