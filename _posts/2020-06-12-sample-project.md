@@ -5,10 +5,7 @@ author: SWIM
 category: project
 image: "assets/images/placeholder.svg"
 subheading: “Government, pay your water bills!”
-short: Main collaborating organizations:
--	End Water Poverty (EWP)
--	Water Integrity Network (WIN)
-
+short: 
 permalink: /sample-project
 ---
 
