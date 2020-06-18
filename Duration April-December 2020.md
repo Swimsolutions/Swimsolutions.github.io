@@ -1,10 +1,10 @@
 ---
 layout: post
-title: Running Project
-author: SWIM
+title: “Government, pay your water bills!”
+author: 
 category: project
 image: "assets/images/placeholder.svg"
-subheading: “Government, pay your water bills!”
+subheading: Current Project
 short: 
 permalink: /sample-project
 ---
