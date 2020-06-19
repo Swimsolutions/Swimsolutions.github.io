@@ -34,7 +34,7 @@ main {
     span { @extend .text-muted; }
   }
 
-  h3 { font-size: 25px; color: $heading; }
+  h3 { font-size: 25px; color: $heading; margin-top: 0px; }
 
   h2, h3 {
     .subheading{ 
