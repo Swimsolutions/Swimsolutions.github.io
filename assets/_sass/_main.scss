@@ -4,6 +4,8 @@ $light-font: #eee;
 $heading: #132A49;
 $sub-heading: #2E8481;
 
+body{ font-family: 'Poppins', sans-serif; }
+
 .dark{
   background: $dark-bg;
   color: $light-font;
