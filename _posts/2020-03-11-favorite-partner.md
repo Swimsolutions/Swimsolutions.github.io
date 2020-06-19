@@ -1,10 +1,10 @@
 ---
 layout: post
-title: WIN
+title: Water Integrety Network
 author: 
 category: partner
 image: "assets/images/WIN_Logo_Colour.png"
-subheading: Water Integrety Network
+subheading: 
 short: 
 permalink: /riding-hood
 --- 
