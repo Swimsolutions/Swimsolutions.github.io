@@ -2,12 +2,12 @@
     {% for post in site.posts %}
     {% if post.category contains {{include.category}}%}
     <a href="{{post.permalink}}">
-        <div class="col-md-2">
+        <div class="col-md-3">
             {%if post.image %}
             <img class='article-thumbnail' src='{{ post.image }}'>
             {% endif %}
         </div>
-        <div class="col-md-10">
+        <div class="col-md-9">
             
             <h3>
                 {{ post.title }}
