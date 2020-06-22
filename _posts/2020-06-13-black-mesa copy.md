@@ -4,8 +4,8 @@ title: Water Scarcity as a Security Issue in the Middle East
 author: 
 category: news
 image: "assets/images/banner.jpeg"
-subheading: 
-short: Although we took all the precautions, he managed to break containment...
+subheading: by Armin Bigham 
+short: 22.06.2020
 permalink: /black-mesa
 ---
 
