@@ -4,9 +4,14 @@ $light-font: #eee;
 $heading: #132A49;
 $sub-heading: #2E8481;
 
-body{ 
+body{
   font-family: 'Poppins', sans-serif; 
   font-size: 18px;
+}
+
+.page-container{
+  min-height: calc( 100vh - 50px );
+  position: relative;
 }
 
 .dark{
@@ -16,13 +21,15 @@ body{
 }
 
 .main-content {
-  padding-bottom: 40px;
+  padding-bottom: 80px;
+
   p{ text-align: justify;}
 }
 
 main {
-  padding: 60px;
-  hr { margin: 60px 0; }
+  padding: 20px;
+  padding-top: 40px;
+  hr { margin: 40px 0; }
   section { overflow: hidden; }
 
   text-align: justify;

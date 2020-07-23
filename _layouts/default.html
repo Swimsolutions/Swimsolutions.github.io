@@ -5,12 +5,14 @@ layout: compress
 <html>
   {% include head.html %}
   <body>
-	  {% include navigation.html %}
-	  {% include header.html %}
-	<div class="container main-content">
-	  {{ content }}
+	  <div class="page-container">
+		{% include navigation.html %}
+		{% include header.html %}
+		<div class="container main-content">
+		{{ content }}
+		</div>
+		{% include footer.html %}
+	  <script src='{{ site.baseurl }}/assets/app.js'></script>
 	</div>
-	{% include footer.html %}
-  	<script src='{{ site.baseurl }}/assets/app.js'></script>
 	</body>
 </html>
