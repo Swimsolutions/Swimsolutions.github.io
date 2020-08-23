@@ -8,14 +8,10 @@ We believe that tensions over water resources, despite changing environmental an
 
 In short, we work to support: 
 
-    Safe access to clean water and sanitation as a human right 
-
-    National and regional stability and security 
-
-    Cooperation and peace between conflicting actors  
-
-    Water poverty reduction 
-
-    Increase in water use efficiency 
+- Safe access to clean water and sanitation as human right
+- National and regional stability and security 
+- Cooperation and peace between conflicting actors  
+- Water poverty reduction 
+- Increase in water use efficiency 
 <br />
 ![another image](/assets/images/ourservices.png){:height="340px" width="520px"}
