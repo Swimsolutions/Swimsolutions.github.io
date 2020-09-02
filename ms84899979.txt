@@ -1,5 +1,0 @@
-﻿{
-  "Description": "Überprüfungsdatei für Domänen-Eigentümerschaft für Microsoft 365-Position im Website-Root",
-  "Domain": "swimsolutions.org",
-  "Id": "9067b3f1-f5a4-4750-85f0-e1a361ba30ab"
-}
